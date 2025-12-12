@@ -1,12 +1,5 @@
 # Project Quotation: Timezone Alignment & Data Quality Audit
 
-**Prepared for:** [Client Name]  
-**Prepared by:** M. Mirza Fahmi - Lead Data Engineer  
-**Date:** December 13, 2024  
-**Validity:** 30 days
-
----
-
 ## Project Overview
 
 Fix critical timezone mismatch between Meta (Facebook) and Google Analytics data causing incorrect daily reporting and day-of-week analysis. Meta data currently in Los Angeles time needs alignment to Amsterdam time (matching Google Analytics), including proper handling of daylight saving time transitions. Additionally, comprehensive review of the full data pipeline (Connectors → BigQuery → Looker Studio) to identify data quality issues and recommend improvements.
