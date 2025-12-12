@@ -131,12 +131,6 @@ Fix critical timezone mismatch between Meta (Facebook) and Google Analytics data
 - Review session and user ID mapping
 - Validate event tracking completeness
 
-**General Connector Issues:**
-- Authentication and access token refresh
-- Error handling and retry logic
-- Data latency and freshness
-- Missing data detection mechanisms
-
 **4.2 BigQuery Data Layer Review**
 - Review table structures and naming conventions
 - Validate primary keys and uniqueness constraints
