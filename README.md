@@ -313,6 +313,7 @@ I will implement the complete timezone conversion solution. This includes:
 ## FAQ
 
 **Q: How do you handle Meta metrics like reach and frequency when converting daily data?**  
+
 A: I handle different metric types appropriately:
 - **Summable metrics** (spend, impressions, clicks): Sum directly by Amsterdam date
 - **Calculated metrics** (CPM, CTR, CPC): Recalculate from re-aggregated base metrics
@@ -323,4 +324,5 @@ A: I handle different metric types appropriately:
   - I'll provide validation showing the impact of any approximation
 
 **Q: Can we test the timezone fix before applying to production?**
+
 A: Absolutely. I'll create test tables/views so you can validate the changes before updating production dashboards.
