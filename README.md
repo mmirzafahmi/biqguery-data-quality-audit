@@ -323,4 +323,5 @@ A: I handle different metric types appropriately:
   - I'll provide validation showing the impact of any approximation
 
 **Q: Can we test the timezone fix before applying to production?**
+
 A: Absolutely. I'll create test tables/views so you can validate the changes before updating production dashboards.
