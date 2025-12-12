@@ -1,5 +1,3 @@
-# biqguery-data-quality-audit
-
 # Project Quotation: Timezone Alignment & Data Quality Audit
 
 **Prepared for:** [Client Name]  
