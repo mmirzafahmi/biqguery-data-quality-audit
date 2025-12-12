@@ -291,7 +291,7 @@ I will implement the complete timezone conversion solution. This includes:
 
 ## Project Timeline
 
-### Total Estimated Hours: **54 hours**
+### Total Estimated Hours: **13 hours**
 
 **Week 1 (6 hours)**
 - Phase 1: Timezone issue resolution (5 hours)
@@ -309,3 +309,18 @@ I will implement the complete timezone conversion solution. This includes:
 
 *Timeline assumes timely access to all systems and stakeholder availability.*
 
+
+## FAQ
+
+**Q: How do you handle Meta metrics like reach and frequency when converting daily data?**  
+A: I handle different metric types appropriately:
+- **Summable metrics** (spend, impressions, clicks): Sum directly by Amsterdam date
+- **Calculated metrics** (CPM, CTR, CPC): Recalculate from re-aggregated base metrics
+- **Unique user metrics** (reach, frequency): 
+  - First, I'll check if hourly data is available for perfect deduplication
+  - If not, I'll use daily values with ~2-5% approximation (documented clearly)
+  - For weekly/monthly reporting, the approximation becomes negligible
+  - I'll provide validation showing the impact of any approximation
+
+**Q: Can we test the timezone fix before applying to production?**
+A: Absolutely. I'll create test tables/views so you can validate the changes before updating production dashboards.
